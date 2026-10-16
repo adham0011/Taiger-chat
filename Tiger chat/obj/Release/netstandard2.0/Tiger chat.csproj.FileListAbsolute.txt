@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\bin\Release\netstandard2.0\Tiger chat.deps.json
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\bin\Release\netstandard2.0\Tiger chat.dll
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\bin\Release\netstandard2.0\ref\Tiger chat.dll
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\bin\Release\netstandard2.0\Tiger chat.pdb
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\Tiger chat.csprojAssemblyReference.cache
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\Tiger chat.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\Tiger chat.AssemblyInfo.cs
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\Tiger chat.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\Tiger chat.dll
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\ref\Tiger chat.dll
+C:\Users\User\Desktop\تطبيقاتي\Tiger chat\Tiger chat\obj\Release\netstandard2.0\Tiger chat.pdb
