@@ -1,0 +1,35 @@
+name: Build Xamarin Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-2019
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.1
+
+    - name: Setup NuGet
+      uses: nuget/setup-nuget@v1.2
+      with:
+        nuget-version: 'latest'
+
+    - name: Restore NuGet Packages
+      run: nuget restore "Tiger chat.sln"
+
+    - name: Build Android APK
+      run: |
+        msbuild "Tiger chat.Android/Tiger chat.Android.csproj" /t:SignAndroidPackage /p:Configuration=Release
+
+    - name: Upload APK Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: TigerChat-APK
+        path: "**/bin/Release/*.apk"
