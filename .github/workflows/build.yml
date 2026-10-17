@@ -7,19 +7,22 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2019
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Code
       uses: actions/checkout@v3
 
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v1.1
-
-    - name: Setup NuGet
-      uses: nuget/setup-nuget@v1.2
+    - name: Setup Java JDK
+      uses: actions/setup-java@v3
       with:
-        nuget-version: 'latest'
+        distribution: 'temurin'
+        java-version: '11'
+
+    - name: Setup .NET / Xamarin
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.0.x'
 
     - name: Restore NuGet Packages
       run: nuget restore "Tiger chat.sln"
